@@ -2,37 +2,24 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: Sobre
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+      - title: "Olá! Eu sou o joão e eu odeio css, pois quem quer saber de estilo? ( Eu ligo para estilo... mas eu nao tenho saco para isso) \n .Indo para outro lado.. eu tenho que dizer que eu adoro.. na verdade.. AMOOOOOOOO fazer coisas em computadores/video games antigos"
+      - title: Repositorio :)
+      - title: " Fora disso.. eu adoro node.js! Back-end.. mas eu não sou professional não! "
+        url: https://github.com/JaoN64dev
+      - title: " C++, NODE.JS, Javascript"
 
-  - title: all posts
+  - title: Updates :)
     post_list:
-      limit: 5
+      limit: 3
       show_more: true
-      show_more_text: See archive...
+      show_more_text: Veja as noticias...
       show_more_url: archive.html
-
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
 
   - title: rss
     url: feed.xml
   
-  - title: another list
+  - title: Theme usado!
     entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+      - title: https://github.com/riggraz/no-style-please
