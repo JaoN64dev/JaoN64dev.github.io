@@ -9,17 +9,6 @@ entries:
       - title: " Fora disso.. eu adoro node.js! Back-end.. mas eu não sou professional não! "
         url: https://github.com/JaoN64dev
       - title: " C++, NODE.JS, Javascript"
-
-  - title: Updates :)
-    post_list:
-      limit: 3
-      show_more: true
-      show_more_text: Veja as noticias...
-      show_more_url: archive.html
-
-  - title: rss
-    url: feed.xml
-  
   - title: Theme usado!
     entries:
       - title: https://github.com/riggraz/no-style-please
