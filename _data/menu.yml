@@ -5,10 +5,13 @@ entries:
   - title: Sobre
     entries:
       - title: "Olá! Eu sou o joão e eu odeio css, pois quem quer saber de estilo? ( Eu ligo para estilo... mas eu nao tenho saco para isso) \n .Indo para outro lado.. eu tenho que dizer que eu adoro.. na verdade.. AMOOOOOOOO fazer coisas em computadores/video games antigos"
-      - title: Repositorio :)
+      - title: Repositorio :
+       url: https://github.com/JaoN64dev
       - title: " Fora disso.. eu adoro node.js! Back-end.. mas eu não sou professional não! "
-        url: https://github.com/JaoN64dev
       - title: " C++, NODE.JS, Javascript"
+  - title: Projetos atuais:
+    entries:
+    -title: TF2 LEGACY ( Um mod de tf2 ) Half life 1 no n64 ( pausado no momento)
   - title: Theme usado!
     entries:
       - title: https://github.com/riggraz/no-style-please
