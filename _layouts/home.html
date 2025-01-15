@@ -8,57 +8,6 @@ layout: default
   {%-endif-%}
 </header>
 
-    <h1>Learn programming level maker:</h1>
-    <p>Insert blocks:</p>
-    <input type="text" id="Blocks">
-    <p>Variables:</p>
-    <input type="text" id="Variables">
-    <p>Code text:</p>
-    <input type="text" id="Code">
-    <p>Flags to clear:</p>
-    <input list="Flag" id="FlagInput">
-    <datalist id="Flags">
-      <option value="Execute1">
-      <option value="Execute2">
-      <option value="Execute3">
-      <option value="Execute4">
-      <option value="Execute5">
-      <option value="Execute6">
-    </datalist>
-    <p>Add custom property:</p>
-    <input type="text" id="CustomProperty" placeholder="Property">
-    <input type="text" id="CustomValue" placeholder="Value">
-    <button onclick="addUpdate()">Add/Update</button>  
-    <code id="output">
-      
-    </code>
-
-    <script>
-      function addUpdate() {
-        var blocks = document.getElementById("Blocks").value;
-        var variables = document.getElementById("Variables").value;
-        var code = document.getElementById("Code").value;
-        var flag = document.getElementById("FlagInput").value;
-        var customProperty = document.getElementById("CustomProperty").value;
-        var customValue = document.getElementById("CustomValue").value;
-
-        var jsonData = {
-          "Blocks": blocks,
-          "Var": variables,
-          "Code": code,
-          "Flag": flag
-        };
-
-        // Add custom property if both property and value are provided
-        if (customProperty && customValue) {
-          jsonData[customProperty] = customValue;
-        }
-
-        var output = document.getElementById("output");
-        output.textContent = JSON.stringify(jsonData, null, 2);
-      }
-    </script>
- 
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
 
